@@ -1,0 +1,14 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          iam:
+            client-id: hold-wallet-ikYlezgpITn8okU0SERQZPk0sCHFSYUL2Q5s65Wo
+            client-secret: nKlAXt5k7e8xLE6nD9qitNPOnbc5o3gJSJ5Bp5RpIUAdIwqzSAWvPXVKAZu78ZQYe4dtQOJhFdISoseulB0pXvowgYS8kJkH5yfl
+            clientAuthenticationMethod: basic
+            authorizationGrantType: client_credentials
+            provider: as
+        provider:
+          as:
+            token-uri: http://dev.hold.co/as/oauth/token
